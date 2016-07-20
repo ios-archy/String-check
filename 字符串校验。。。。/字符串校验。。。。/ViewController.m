@@ -7,12 +7,12 @@
 //
 
 #import "ViewController.h"
-
+#import "NewTextfIed.h"
 @interface ViewController ()<UITextFieldDelegate>
 {
     NSTimer *mytimer;
 }
-@property (nonatomic,strong)UITextField *contentfiled;
+@property (nonatomic,strong)NewTextfIed *contentfiled;
 
 @property (nonatomic,strong)UIButton *sendnews;
 
@@ -37,7 +37,7 @@
 -(UITextField *)contentfiled
 {
     if (!_contentfiled) {
-        _contentfiled =[[UITextField alloc]initWithFrame:CGRectMake(0, 40, self.view.frame.size.width, 50)];
+        _contentfiled =[[NewTextfIed alloc]initWithFrame:CGRectMake(0, 40, self.view.frame.size.width, 50)];
         _contentfiled.delegate =self;
         _contentfiled.returnKeyType = UIReturnKeySend;
         _contentfiled.placeholder =@"请输入您的消息！！！";
@@ -96,10 +96,11 @@
 }
 // 不能复制粘贴
 - (BOOL)canPerformAction:(SEL)action withSender:(id)sender{
+  
     if (action == @selector(copy:) || action == @selector(paste:)) {
         return NO;
     }
-    return YES;
+    return [super canPerformAction:action withSender:sender];
 }
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField

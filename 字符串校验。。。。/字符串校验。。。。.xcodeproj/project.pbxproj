@@ -15,6 +15,7 @@
 		2822DCD71D3F559F008C53CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2822DCD51D3F559F008C53CB /* LaunchScreen.storyboard */; };
 		2822DCE21D3F55A0008C53CB /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822DCE11D3F55A0008C53CB /* _________Tests.m */; };
 		2822DCED1D3F55A0008C53CB /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822DCEC1D3F55A0008C53CB /* _________UITests.m */; };
+		2822DCFC1D3F7852008C53CB /* NewTextfIed.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822DCFB1D3F7852008C53CB /* NewTextfIed.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2822DCE81D3F55A0008C53CB /* 字符串校验。。。。UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "字符串校验。。。。UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2822DCEC1D3F55A0008C53CB /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
 		2822DCEE1D3F55A0008C53CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2822DCFA1D3F7852008C53CB /* NewTextfIed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTextfIed.h; sourceTree = "<group>"; };
+		2822DCFB1D3F7852008C53CB /* NewTextfIed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTextfIed.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				2822DCCB1D3F559F008C53CB /* AppDelegate.m */,
 				2822DCCD1D3F559F008C53CB /* ViewController.h */,
 				2822DCCE1D3F559F008C53CB /* ViewController.m */,
+				2822DCFA1D3F7852008C53CB /* NewTextfIed.h */,
+				2822DCFB1D3F7852008C53CB /* NewTextfIed.m */,
 				2822DCD01D3F559F008C53CB /* Main.storyboard */,
 				2822DCD31D3F559F008C53CB /* Assets.xcassets */,
 				2822DCD51D3F559F008C53CB /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				2822DCCF1D3F559F008C53CB /* ViewController.m in Sources */,
 				2822DCCC1D3F559F008C53CB /* AppDelegate.m in Sources */,
 				2822DCC91D3F559F008C53CB /* main.m in Sources */,
+				2822DCFC1D3F7852008C53CB /* NewTextfIed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +506,7 @@
 				2822DCF31D3F55A0008C53CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2822DCF41D3F55A0008C53CB /* Build configuration list for PBXNativeTarget "字符串校验。。。。Tests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +515,7 @@
 				2822DCF61D3F55A0008C53CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2822DCF71D3F55A0008C53CB /* Build configuration list for PBXNativeTarget "字符串校验。。。。UITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +524,7 @@
 				2822DCF91D3F55A0008C53CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
